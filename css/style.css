@@ -1,3 +1,56 @@
 body{
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
+
+
+/* ------------------HEADER------------------ */
+/* NAVBAR-TOP */
+.navbar-top{
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.main-nav, .secondary-nav{
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.secondary-nav{
+  margin-left: 100px;
+}
+
+.main-nav a, .secondary-nav a{
+  color: #031b4f;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 6px;
+}
+
+.main-nav a:hover, .secondary-nav a:hover{
+  color: #006aff;
+}
+
+.btn-sign-up{
+  color: #006aff !important;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+  padding: 8px 14px;
+}
+
+.btn-sign-up:hover{
+  color: white !important;
+  background-color: #006aff;
+}
+
+.btn-mobile{
+  background-color: white;
+  color: #006aff;
+  font-size: 20px;
+}
+
+/* JUMBOTRON */
