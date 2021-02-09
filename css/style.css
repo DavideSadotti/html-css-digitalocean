@@ -145,6 +145,7 @@ body{
 
 .affiliate h4{
   color: #5b6987;
+  text-transform: uppercase;
 }
 
 .affiliate img{
@@ -162,6 +163,6 @@ body{
 @media screen and (max-width: 767px){
   .affiliate img{
     width: 50%;
-    padding: 50px;
+    padding: 30px;
   }
 }
