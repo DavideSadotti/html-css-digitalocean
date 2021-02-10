@@ -177,8 +177,10 @@ body{
   margin-bottom: 70px;
 }
 
-.deploy-scale-top h2, .designed h2, .love-digital h2{
+.deploy-scale-top h2, .designed h2, .love-digital h2, .business-needs h2{
   font-size: 36px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .deploy-scale-top p, .designed p{
@@ -338,6 +340,34 @@ body{
     margin-right: 100px;
   }
 }
+
+/* SECTION BUSINESS NEEDS */
+.business-needs{
+  padding: 50px 0;
+}
+
+.business-needs img{
+  margin: 20px 0;
+}
+
+.business-needs h5{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.business-needs p{
+  color: #5b6987;
+  font-size: 16px;
+}
+
+.business-needs a{
+  text-decoration: none;
+  color: #0069ff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* SECTION AROUND THE WORLD */
 
 /* SECTION LOVE DIGITAL */
 .love-digital .carosello-img{
