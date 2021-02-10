@@ -177,15 +177,15 @@ body{
   margin-bottom: 70px;
 }
 
-.deploy-scale-top h2{
+.deploy-scale-top h2, .designed h2{
   font-size: 36px;
 }
 
-.deploy-scale-top p{
+.deploy-scale-top p, .designed p{
   font-size: 20px;
 }
 
-.deploy-scale-top p, .deploy-scale p{
+.deploy-scale-top p, .deploy-scale p, .designed p{
   color: #5b6987;
   font-weight: 500;
 }
@@ -222,4 +222,119 @@ body{
 
 .deploy-scale img{
   margin-bottom: 10px;
+}
+
+
+/* SECTION DESIGNED FOR DEVELOPERS */
+.designed{
+  text-align: center;
+  background-color: #f3f5f9;
+}
+
+.designed-top{
+  margin: 50px auto;
+}
+
+.carosello{
+  margin-bottom: 50px;
+}
+
+.carosello ol{
+  bottom: -20px;
+}
+
+.carosello li{
+  border: 2px solid #0069ff;
+  width: 12px;
+  height: 12px;
+}
+
+.carosello ol .active{
+  background-color: #0069ff;
+}
+
+.carosello a{
+  background-image: none !important;
+}
+
+.carosello-img img{
+  margin: auto;
+}
+
+.carosello-img p{
+  width: 80%;
+  margin: 30px auto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.carosello a{
+  color: black;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-300%);
+}
+
+.carosello a:hover{
+  color: black;
+}
+
+.carosello a:focus{
+  color: black;
+}
+
+@media screen and (max-width: 767px){
+  .carosello-img img{
+    width: 80%;
+  }
+
+  .carosello .left{
+    margin-left: -10px;
+  }
+
+  .carosello .right{
+    margin-right: -10px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .carosello-img img{
+    width: 80%;
+  }
+
+  .carosello .left{
+    margin-left: -10px;
+  }
+
+  .carosello .right{
+    margin-right: -10px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .carosello-img img{
+    width: 70%;
+  }
+
+  .carosello .left{
+    margin-left: 30px;
+  }
+
+  .carosello .right{
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .carosello-img img{
+    width: 60%;
+  }
+
+  .carosello .left{
+    margin-left: 100px;
+  }
+
+  .carosello .right{
+    margin-right: 100px;
+  }
 }
