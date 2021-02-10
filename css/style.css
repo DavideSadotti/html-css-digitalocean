@@ -177,7 +177,7 @@ body{
   margin-bottom: 70px;
 }
 
-.deploy-scale-top h2, .designed h2{
+.deploy-scale-top h2, .designed h2, .love-digital h2{
   font-size: 36px;
 }
 
@@ -226,12 +226,13 @@ body{
 
 
 /* SECTION DESIGNED FOR DEVELOPERS */
-.designed{
+/*      &     SECTION LOVE DIGITAL */
+.designed, .love-digital{
   text-align: center;
   background-color: #f3f5f9;
 }
 
-.designed-top{
+.designed-top, .love-digital h2{
   margin: 50px auto;
 }
 
@@ -239,7 +240,7 @@ body{
   margin-bottom: 50px;
 }
 
-.carosello ol{
+.designed .carosello ol{
   bottom: -20px;
 }
 
@@ -247,6 +248,7 @@ body{
   border: 2px solid #0069ff;
   width: 12px;
   height: 12px;
+  margin: auto;
 }
 
 .carosello ol .active{
@@ -257,18 +259,20 @@ body{
   background-image: none !important;
 }
 
-.carosello-img img{
+.designed .carosello-img img{
   margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(3 27 78 / 6%);
 }
 
-.carosello-img p{
+.designed .carosello-img p{
   width: 80%;
   margin: 30px auto;
   font-size: 16px;
   font-weight: 400;
 }
 
-.carosello a{
+.designed .carosello a{
   color: black;
   height: 20px;
   top: 50%;
@@ -284,21 +288,17 @@ body{
 }
 
 @media screen and (max-width: 767px){
-  .carosello-img img{
+  .designed .carosello-img img, .love-digital .carosello-img{
     width: 80%;
   }
 
-  .carosello .left{
-    margin-left: -10px;
-  }
-
-  .carosello .right{
-    margin-right: -10px;
+  .carosello .left, .carosello .right{
+    display: none;
   }
 }
 
 @media screen and (min-width: 768px){
-  .carosello-img img{
+  .designed .carosello-img img, .love-digital .carosello-img{
     width: 80%;
   }
 
@@ -312,7 +312,7 @@ body{
 }
 
 @media screen and (min-width: 992px){
-  .carosello-img img{
+  .designed .carosello-img img, .love-digital .carosello-img{
     width: 70%;
   }
 
@@ -326,7 +326,7 @@ body{
 }
 
 @media screen and (min-width: 1200px){
-  .carosello-img img{
+  .designed .carosello-img img, .love-digital .carosello-img{
     width: 60%;
   }
 
@@ -337,4 +337,46 @@ body{
   .carosello .right{
     margin-right: 100px;
   }
+}
+
+/* SECTION LOVE DIGITAL */
+.love-digital .carosello-img{
+  margin: auto;
+  background-color: white;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(3 27 78 / 6%);
+}
+
+.love-digital .carosello a{
+  color: black;
+}
+
+.love-digital .carosello ol{
+  bottom: -60px;
+}
+
+.love-digital .carosello-img .item{
+  padding: 50px;
+}
+
+.love-digital .carosello-img img{
+  margin: auto;
+  width: 200px;
+}
+
+.love-digital .carosello-img span{
+  font-weight: bold;
+}
+
+.love-digital .carosello-img a{
+  color: #0069ff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.text-carousel{
+  font-size: 20px;
+  color: #5b6987;
+  margin: 15px auto;
 }
