@@ -410,3 +410,35 @@ body{
   color: #5b6987;
   margin: 15px auto;
 }
+
+
+/* SECTION STARTED NOW */
+.started-now{
+  background-image: url(../img/started-now.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.started-now div{
+  text-align: center;
+  padding: 50px 0;
+}
+
+.started-now h3{
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.btn-started{
+  color: #0069ff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+
+
+/* ------------------FOOTER------------------ */
