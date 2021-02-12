@@ -135,6 +135,44 @@ body{
 }
 
 
+/* HELP ME SAMMY SHARK */
+.shark img{
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  border-radius: 5px;
+}
+
+.comment-shark{
+  position: fixed;
+  right: 90px;
+  bottom: 40px;
+  width: 250px;
+}
+
+.number{
+  color: white;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 85px;
+  right: 25px;
+  z-index: 20px;
+  width: 18px;
+  height: 19px;
+  padding: 2px;
+  text-align: center;
+}
+
+.number p{
+  background-color: red;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+
 /* ------------------MAIN------------------ */
 /* SECTION AFFILIATE */
 .affiliate{
@@ -406,7 +444,7 @@ body{
 
 .around-world ul li{
   font-size: 13px;
-  border-bottom: 1px solid hsla(0,0%,100%,0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   text-align: left;
 }
 
@@ -575,5 +613,41 @@ body{
 }
 
 
-
 /* ------------------FOOTER------------------ */
+footer{
+  background-color: #041c4e;
+  color: white;
+  padding: 50px 0;
+}
+
+footer img{
+  margin: 20px 0;
+}
+
+footer i{
+  color: white;
+  font-size: 20px;
+  margin: 15px 10px 0 0;
+}
+
+footer p, footer small, footer li{
+  opacity: 0.6;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer ul{
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+footer li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.social li{
+  display: inline-block;
+}
